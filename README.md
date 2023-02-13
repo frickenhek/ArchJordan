@@ -20,8 +20,6 @@ This is completely automated arch install. It includes prompts to select your de
 
 ## Troubleshooting
 
-__[Arch Linux RickEllis Installation Guide](https://github.com/rickellis/Arch-Linux-Install-Guide)__
-
 __[Arch Linux Wiki Installation Guide](https://wiki.archlinux.org/title/Installation_guide)__
 
 The main script will generate .log files for every script that is run as part of the installation process. These log files contain the terminal output so you can review any warnings or errors that occurred during installation and aid in troubleshooting. 

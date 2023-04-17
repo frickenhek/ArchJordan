@@ -202,22 +202,17 @@ echo -ne "
 "
 }
 # @description This function will handle file systems. At this movement we are handling only
-# btrfs and ext4. Others will be added in future.
+# ext4.
 filesystem () {
 echo -ne "
 Please Select your file system for both boot and root
 "
-options=("btrfs" "ext4" "luks" "exit")
+options=( "ext4" "exit")
 select_option $? 1 "${options[@]}"
 
 case $? in
-0) set_option FS btrfs;;
-1) set_option FS ext4;;
-2) 
-    set_password "LUKS_PASSWORD"
-    set_option FS luks
-    ;;
-3) exit ;;
+0) set_option FS ext4;;
+1) exit ;;
 *) echo "Wrong option please select again"; filesystem;;
 esac
 }

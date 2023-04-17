@@ -51,6 +51,5 @@ gst-plugins-base-libs
 lib32-gst-plugins-base-libs 
 lutris 
 gamemode
-ungoogled-chromium
 firefox
 --END OF MINIMAL INSTALL--

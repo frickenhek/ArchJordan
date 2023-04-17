@@ -205,7 +205,7 @@ echo -ne "
 # ext4.
 filesystem () {
 echo -ne "
-Please Select the only option I give you :)
+Please select the only option I give you :)
 "
 options=( "ext4" "exit")
 select_option $? 1 "${options[@]}"
@@ -307,7 +307,7 @@ set_option NAME_OF_MACHINE $nameofmachine
 # @description Choose AUR helper. 
 aurhelper () {
   # Let the user choose AUR helper from predefined list
-  echo -ne "Please enter your desired AUR helper:\n"
+  echo -ne "Please choose if you want an AUR helper or not:\n"
   options=(yay none)
   select_option $? 4 "${options[@]}"
   aur_helper=${options[$?]}

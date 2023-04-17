@@ -14,6 +14,11 @@ git clone https://github.com/frickenhek/ArchJordan
 cd ArchJordan
 ./archjordan.sh
 ```
+### Do the following if you want my setup
+Choose yay
+Choose ext4
+Choose minimal
+choose based-kde
 
 ### System Description
 This is completely automated arch install. It includes prompts to select your desired desktop environment and window manager. The KDE desktop environment on arch includes all the packages I use on a daily basis, as well as some customizations.

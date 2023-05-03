@@ -2,8 +2,6 @@
 
 Download ArchISO from <https://archlinux.org/download/> and put on a USB drive with [Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/en/index.html), or [Rufus](https://rufus.ie/en/)
 
-If you don't want to build using this script I did create an image @ <https://cttstore.com/arch-titus>
-
 ## Boot Arch ISO
 
 From initial Prompt type the following commands:
@@ -22,7 +20,7 @@ Choose ext4
 Choose minimal
 choose based-kde
 ```
-You will have to debloat a lot of the KDE games and such, but only if you want to, I think all the KDE bloat amounts to 100 maybe 200 MB.  
+You will have to debloat a lot of the KDE stuff, but only if you want to, I think all the KDE bloat amounts to 100 maybe 200 MB, so it's not really necessary
 
 ### System Description
 This is completely automated arch install. It includes prompts to select your desired desktop environment and window manager. The KDE desktop environment on arch includes all the packages I use on a daily basis, as well as some customizations.

@@ -7,8 +7,6 @@
 #                   ██║  ██║██║  ██║╚██████╗██║  ██║
 #                   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
 #-------------------------------------------------------------------------
-#github-action genshdoc
-#
 # @file Preinstall
 # @brief Contains the steps necessary to configure and pacstrap the install to selected drive. 
 echo -ne "

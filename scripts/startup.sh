@@ -230,7 +230,7 @@ case ${options[$?]} in
     echo "${time_zone} set as timezone"
     set_option TIMEZONE $time_zone;;
     n|N|no|NO|No)
-    echo "Please enter your desired timezone e.g. Europe/London :" 
+    echo "Please enter your desired timezone e.g. America/Chicago :" 
     read new_timezone
     echo "${new_timezone} set as timezone"
     set_option TIMEZONE $new_timezone;;
